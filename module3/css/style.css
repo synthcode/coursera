@@ -1,0 +1,130 @@
+body {
+  background-color: #f4da62;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: #7b282d;
+  border-radius: 0px;
+  /*border: 5px solid red;*/
+}
+
+#header-nav .navbar-header {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /*border: 5px solid green;*/
+}
+
+@media (max-width: 767px)  {
+  #header-nav {
+    border: 1px solid black;
+  }
+  #header-nav .navbar-header {
+    border: 1px solid black;
+  }
+}
+
+@media (min-width: 768px)  {
+  #header-nav {
+    border: 2px solid black;
+  }
+  #header-nav .navbar-header {
+    border: 0;
+  }
+}
+
+#header-nav .navbar-brand {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  /*border: 5px solid blue;*/
+  padding-left: 25px;
+  padding-top: 4px;
+}
+
+#header-nav .navbar-brand h1 {
+  margin: 0;
+  color: white;
+  /*font-size: 2em;*/
+}
+
+#navbarToggle {
+  margin-top: 11px;
+  margin-right: 25px;
+  border: 2px solid white;
+}
+
+#navbarToggle .icon-bar {
+  background-color: white;
+}
+
+#collapsable-nav {
+  /*margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: -15px;
+  margin-right: -15px;*/
+  border: 0px solid magenta;
+}
+
+#header-nav .navbar-toggle:hover {
+  background-color: #f4da62;
+}
+
+#header-nav .navbar-toggle:focus {
+  background-color: #f4da62;
+}
+
+#header-nav .navbar-toggle:hover .icon-bar {
+  background-color: black;
+}
+
+#header-nav .navbar-toggle:focus .icon-bar {
+  background-color: black;
+}
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  /*border: 0px solid black;*/
+}
+
+#nav-list a {
+  color: white;
+  border: 1px solid black;
+}
+
+#nav-list a:hover {
+  background: #f4da62;
+  color: black;
+}
+
+#menu-heading {
+  margin: 0 auto 20px;
+}
+
+#menu-content {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#chicken-content, #beef-content, #sushi-content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  height: 700px;
+  margin: 0px auto 30px;
+  padding: 0px 15px;
+}
+
+#chicken-content p, #beef-content p, #sushi-content p {
+  overflow: hidden;
+}
+
+.content-filler {
+  background-color: white;
+  flex-grow: 1;
+}
+
+#chicken-content a, #beef-content a, #sushi-content a {
+  color: black;
+}
